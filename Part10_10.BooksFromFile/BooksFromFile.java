@@ -4,7 +4,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
@@ -12,7 +11,7 @@ import java.util.stream.Collectors;
 public class BooksFromFile {
     
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        System.out.println(readBooks("Part10_10.BooksFromFile\\books.txt"));
     }
     
     public static List<Book> readBooks(String file) {

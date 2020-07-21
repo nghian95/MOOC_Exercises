@@ -28,3 +28,13 @@
 # This exercise uses Maps and Lists to create a functional eCommerce Store that tracks product's prices
 # and stock along with the Customer's cart. Also integrates defined equals and hashCode methods to more easily
 # find products in the various Maps and Lists.
+==================
+# Part 10.10 - BooksFromFile
+
+# Utilized streams to read lines from a text file, split them into array elements, and create Book objects from
+# the data.
+==================
+# Part 12.10 - MagicSquare
+
+# Implemented the Siamese method algorithm to create magic squares (squares that have their horizontal, vertical 
+# and diagonal sums equal to one another).

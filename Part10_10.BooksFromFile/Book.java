@@ -6,9 +6,9 @@ public class Book {
     private int pageCount;
     private String author;
 
-    public Book(String name, int ReleaseYear, int pages, String author) {
+    public Book(String name, int releaseYear, int pages, String author) {
         this.name = name;
-        this.publishingYear = ReleaseYear;
+        this.publishingYear = releaseYear;
         this.pageCount = pages;
         this.author = author;
     }
@@ -27,6 +27,11 @@ public class Book {
 
     public int getPagecount() {
         return pageCount;
+    }
+
+    @Override
+    public String toString() {
+        return "\nName: " + this.name + ", Release Year: " + publishingYear + ", Pages: " + pageCount + ", Author: " + this.author;
     }
 
 }
